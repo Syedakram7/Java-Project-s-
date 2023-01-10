@@ -1,0 +1,21 @@
+import java.util.*;
+class check
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+String a,b;
+int i,j;
+System.out.println("enter the username: ");
+a=s.next();
+System.out.println("enter the username: ");
+b=s.next();
+if(a .equals(b))
+{
+System.out.println("valid");
+}
+else{
+System.out.println("invalid");
+}
+}
+}
